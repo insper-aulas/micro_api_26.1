@@ -1,0 +1,9 @@
+[submodule "api/account"]
+	path = api/account
+	url = https://github.com/insper-aulas/account.git
+[submodule "api/account-service"]
+	path = api/account-service
+	url = https://github.com/insper-aulas/account-service.git
+[submodule "api/gateway-service"]
+	path = api/gateway-service
+	url = https://github.com/insper-aulas/gateway-service.git
