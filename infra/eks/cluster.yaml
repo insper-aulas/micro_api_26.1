@@ -2,16 +2,16 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: store-platform
-  region: us-east-1
-  version: "1.30"
+  name: ${EKS_CLUSTER_NAME}
+  region: ${AWS_REGION}
+  version: "${EKS_VERSION}"
 
 managedNodeGroups:
-  - name: store-platform-ng
-    instanceType: t3.small
-    desiredCapacity: 2
-    minSize: 1
-    maxSize: 4
-    volumeSize: 20
+  - name: ${EKS_CLUSTER_NAME}-ng
+    instanceType: ${EKS_NODE_INSTANCE_TYPE}
+    desiredCapacity: ${EKS_NODE_DESIRED_CAPACITY}
+    minSize: ${EKS_NODE_MIN_SIZE}
+    maxSize: ${EKS_NODE_MAX_SIZE}
+    volumeSize: ${EKS_NODE_VOLUME_SIZE}
     labels:
       workload: store-platform

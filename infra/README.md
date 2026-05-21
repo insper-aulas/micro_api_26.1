@@ -15,12 +15,15 @@ This folder contains the production-oriented infrastructure outline used for the
 ```bash
 cp infra/.env.exemplo infra/.env
 source infra/.env
+infra/scripts/preflight.sh
 infra/scripts/bootstrap.sh
 infra/rds/create-instance.sh
 infra/scripts/deploy-all.sh
 ```
 
 The scripts are intentionally small and explicit so they can be reviewed before running in a paid cloud account.
+
+`preflight.sh` only validates tools and AWS access. `bootstrap.sh` creates the EKS cluster and ingress controller. `create-instance.sh` creates or reuses the RDS instance and prints the endpoint. If the application should use RDS, copy that endpoint into `DATABASE_HOST` in `infra/.env` before running `deploy-all.sh`.
 
 ## Where to create `.env`
 
