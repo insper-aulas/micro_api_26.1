@@ -1,0 +1,17 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: store-platform
+  region: us-east-1
+  version: "1.30"
+
+managedNodeGroups:
+  - name: store-platform-ng
+    instanceType: t3.small
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 4
+    volumeSize: 20
+    labels:
+      workload: store-platform
