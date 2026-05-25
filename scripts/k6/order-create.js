@@ -1,6 +1,9 @@
 import http from "k6/http";
 import { check } from "k6";
 
+const productUrl = __ENV.PRODUCT_URL || "http://localhost:8080";
+const orderUrl = __ENV.ORDER_URL || "http://localhost:8081";
+
 export const options = {
   vus: 3,
   iterations: 10,
@@ -18,7 +21,7 @@ export default function () {
     "id-account": "load-test-account",
   };
 
-  const product = http.post("http://localhost:8080/products", productPayload, { headers });
+  const product = http.post(`${productUrl}/products`, productPayload, { headers });
 
   check(product, {
     "product created": (res) => res.status === 201,
@@ -29,7 +32,7 @@ export default function () {
     items: [{ idProduct: productId, quantity: 2 }],
   });
 
-  const order = http.post("http://localhost:8081/orders", orderPayload, { headers });
+  const order = http.post(`${orderUrl}/orders`, orderPayload, { headers });
 
   check(order, {
     "order created": (res) => res.status === 201,

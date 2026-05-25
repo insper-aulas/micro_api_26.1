@@ -31,6 +31,15 @@
 - Slides: pendente de publicacao externa.
 - Video: pendente de publicacao externa.
 
+## Pendencias Finais
+
+- Executar o deploy em AWS/EKS real.
+- Rodar os pipelines Jenkins apontando para o EKS.
+- Gravar o video do teste de carga mostrando o HPA.
+- Completar os links de slides e video.
+- Inserir prints em `docs/evidence/screenshots/`.
+- Registrar a estimativa da AWS Pricing Calculator.
+
 ## Bottlenecks destacados
 
 - `Caching`: o `product-service` usa Redis com `Spring Cache` para reduzir leituras repetidas no banco.

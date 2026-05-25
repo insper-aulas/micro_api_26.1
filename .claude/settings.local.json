@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:insper.github.io)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git submodule:*)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/1/\")",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/2/\")",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/3/\")",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/1/\" -o /tmp/page1.html)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/2/\" -o /tmp/page2.html)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/3/\" -o /tmp/page3.html)",
+      "Bash(mkdir -p /c/tmp)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/1/\" -o /c/tmp/page1.html)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/2/\" -o /c/tmp/page2.html)",
+      "Bash(curl -s \"https://insper.github.io/platform/hands-on/3/\" -o /c/tmp/page3.html)",
+      "Bash(ls c:/Users/lafer/5sem/micro_api_26.1/api/account-service/target/*.jar)"
+    ]
+  }
+}
