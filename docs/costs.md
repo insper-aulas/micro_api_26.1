@@ -23,7 +23,7 @@ O console AWS exibiu consumo ativo no mes da entrega:
 
 | Item | Valor |
 | --- | --- |
-| Regiao | `South America (Sao Paulo)` / `sa-east-1` |
+| Regiao | `US East (N. Virginia)` / `us-east-1` |
 | Custo do mes atual | `US$ 385,40` |
 | Previsao para final do mes | `US$ 393,13` |
 | Principais categorias visiveis | EKS, RDS, EC2 - Other, MQ, Tax e Outros |

@@ -4,7 +4,7 @@ O projeto foi preparado para execucao em AWS usando EKS, Load Balancer, banco Po
 
 ## Evidencia registrada
 
-- Regiao visualizada no console: `South America (Sao Paulo)` / `sa-east-1`.
+- Regiao visualizada no console: `US East (N. Virginia)` / `us-east-1`.
 - O painel de custo e uso da conta AWS mostra consumo ativo no mes, incluindo custos associados a `Elastic Container Service for Kubernetes`, `Relational Database Service`, `EC2 - Other`, `MQ`, impostos e outros itens.
 - Custo observado no console: `US$ 385,40` no mes atual.
 - Previsao exibida pelo console: `US$ 393,13` para o final do mes.

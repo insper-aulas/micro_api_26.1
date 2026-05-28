@@ -6,7 +6,7 @@ O grupo utilizou uma conta AWS compartilhada para a infraestrutura do projeto. O
 
 | Campo | Valor observado |
 | --- | --- |
-| Regiao selecionada | South America (Sao Paulo) / `sa-east-1` |
+| Regiao selecionada | US East (N. Virginia) / `us-east-1` |
 | Custo do mes atual | `US$ 385,40` |
 | Previsao para final do mes | `US$ 393,13` |
 | Categorias visiveis | Elastic Container Service for Kubernetes, Relational Database Service, EC2 - Other, MQ, Tax e Outros |
