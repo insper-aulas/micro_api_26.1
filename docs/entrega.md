@@ -19,14 +19,14 @@
 ## Links importantes
 
 - Repositorio do projeto: <https://github.com/insper-aulas/micro_api_26.1>
-- Handout da disciplina: <https://insper.github.io/platform/versions/2026.1/>
-- Sequencia individual:
-  - <https://insper.github.io/platform/exercises/product/>
-  - <https://insper.github.io/platform/exercises/order/>
-  - <https://insper.github.io/platform/exercises/exchange/>
-  - <https://insper.github.io/platform/exercises/jenkins/>
-  - <https://insper.github.io/platform/exercises/minikube/>
-  - <https://insper.github.io/platform/exercises/bottlenecks/>
+- Documentacao publicada: <https://insper-aulas.github.io/micro_api_26.1/>
+- Atividades implementadas:
+  - [Product API](exercicios/product-api.md) - [repositorio](https://github.com/insper-aulas/product-service)
+  - [Order API](exercicios/order-api.md) - [repositorio](https://github.com/insper-aulas/order-service)
+  - [Exchange API](exercicios/exchange-api.md) - [repositorio](https://github.com/insper-aulas/exchange)
+  - [Jenkins](exercicios/jenkins.md) - [repositorio agregador](https://github.com/insper-aulas/micro_api_26.1)
+  - [MiniKube](exercicios/minikube.md) - [repositorio agregador](https://github.com/insper-aulas/micro_api_26.1)
+  - [Bottlenecks](exercicios/bottlenecks.md) - [repositorio agregador](https://github.com/insper-aulas/micro_api_26.1)
 
 ## Apresentacao e video
 
