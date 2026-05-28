@@ -15,7 +15,24 @@ A infra em AWS deve ser temporaria e usada apenas para demonstracao, porque EKS,
 
 ## Plano de Custos
 
-Para a entrega, monte uma estimativa na AWS Pricing Calculator com:
+Para a entrega, a estimativa deve ser comparada com o custo real observado no console AWS.
+
+## Custo observado
+
+O console AWS exibiu consumo ativo no mes da entrega:
+
+| Item | Valor |
+| --- | --- |
+| Regiao | `South America (Sao Paulo)` / `sa-east-1` |
+| Custo do mes atual | `US$ 385,40` |
+| Previsao para final do mes | `US$ 393,13` |
+| Principais categorias visiveis | EKS, RDS, EC2 - Other, MQ, Tax e Outros |
+
+Esse valor deve ser tratado como evidencia de consumo real da infraestrutura compartilhada do grupo.
+
+## Estimativa planejada
+
+Na AWS Pricing Calculator, a estimativa deve considerar:
 
 - 1 cluster EKS.
 - 1 node group com 1 a 2 instancias pequenas.
@@ -28,7 +45,7 @@ Registre na apresentacao:
 - Regiao usada.
 - Tipo e quantidade de instancias.
 - Se o banco foi RDS ou PostgreSQL dentro do cluster.
-- Custo mensal estimado.
+- Custo mensal estimado e custo real observado no console.
 - Medidas de reducao de custo.
 
 ## Cleanup

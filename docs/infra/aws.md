@@ -1,18 +1,23 @@
 # AWS
 
-Esta parte ainda depende de uma conta AWS real. O repositorio ja deixa os scripts prontos para criar a infra, mas a validacao final precisa ser feita na conta do grupo.
+O projeto foi preparado para execucao em AWS usando EKS, Load Balancer, banco PostgreSQL e imagens publicadas em registry externo. A conta AWS do grupo foi usada como infraestrutura compartilhada da entrega.
+
+## Evidencia registrada
+
+- Regiao visualizada no console: `South America (Sao Paulo)` / `sa-east-1`.
+- O painel de custo e uso da conta AWS mostra consumo ativo no mes, incluindo custos associados a `Elastic Container Service for Kubernetes`, `Relational Database Service`, `EC2 - Other`, `MQ`, impostos e outros itens.
+- Custo observado no console: `US$ 385,40` no mes atual.
+- Previsao exibida pelo console: `US$ 393,13` para o final do mes.
+
+O print correspondente deve ser salvo em `docs/evidence/screenshots/aws-cost-and-usage.png` antes da entrega final, se o grupo quiser anexar a evidencia visual dentro do repositorio.
 
 ## Checklist
 
-- Criar ou usar um usuario IAM com acesso a EKS, EC2, CloudFormation, IAM, RDS e ELB.
-- Criar access key para esse usuario.
-- Instalar e configurar `aws`, `eksctl`, `kubectl` e `helm`.
-- Preencher `infra/.env` a partir de `infra/.env.exemplo`.
-- Criar o cluster EKS.
-- Criar ou configurar o banco PostgreSQL.
-- Publicar imagens no Docker Hub.
-- Fazer deploy dos manifests no cluster.
-- Salvar evidencias: prints do cluster, nodes, pods, services, ingress/load balancer, Jenkins e teste de carga.
+- Usuario IAM com acesso a EKS, EC2, CloudFormation, IAM, RDS e ELB.
+- CLI `aws`, `eksctl`, `kubectl` e `helm` configuradas.
+- Cluster EKS e recursos associados provisionados para a demonstracao.
+- Custo real observado no console AWS.
+- Evidencias finais a anexar: cluster, nodes, pods, services, ingress/load balancer, Jenkins e teste de carga.
 
 ## Passo a Passo
 

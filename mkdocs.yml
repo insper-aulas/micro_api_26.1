@@ -58,6 +58,7 @@ nav:
       - AWS: infra/aws.md
       - EKS: infra/eks.md
       - CI/CD: infra/cicd.md
+      - Evidencias AWS: evidence/aws.md
   - Exercicios:
       - Product API: exercicios/product-api.md
       - Order API: exercicios/order-api.md
