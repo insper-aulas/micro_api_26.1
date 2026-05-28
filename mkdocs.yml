@@ -1,9 +1,9 @@
 site_name: Projeto API Individual
 site_description: Documentacao do projeto individual da disciplina Platforms, Microservices, DevOps and APIs.
-site_author: Pedrohvs
-repo_url: https://github.com/pedro-vs/projeto_API_individual
-repo_name: pedro-vs/projeto_API_individual
-site_url: https://pedro-vs.github.io/projeto_API_individual/
+site_author: Pedro Henrique Vargas Sepulveda e Raphael Cimerman Lafer
+repo_url: https://github.com/insper-aulas/micro_api_26.1
+repo_name: insper-aulas/micro_api_26.1
+site_url: https://insper-aulas.github.io/micro_api_26.1/
 
 theme:
   name: material

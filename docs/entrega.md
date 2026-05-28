@@ -2,12 +2,14 @@
 
 ## Identificacao
 
-- Aluno: `Pedro Henrique Vargas Sepulveda`
-- Repositorio: [`pedro-vs/projeto_API_individual`](https://github.com/pedro-vs/projeto_API_individual)
+- Alunos:
+  - `Pedro Henrique Vargas Sepulveda`
+  - `Raphael Cimerman Lafer`
+- Repositorio: [`insper-aulas/micro_api_26.1`](https://github.com/insper-aulas/micro_api_26.1)
 
 ## Itens cobertos nesta documentacao
 
-- Nome do aluno e identificacao da entrega.
+- Nome dos alunos e identificacao da entrega.
 - Documentacao das atividades realizadas em cada exercicio individual.
 - Codigo-fonte do projeto no mesmo repositorio.
 - Arquitetura, execucao local, observabilidade e validacao.
@@ -16,7 +18,7 @@
 
 ## Links importantes
 
-- Repositorio do projeto: <https://github.com/pedro-vs/projeto_API_individual>
+- Repositorio do projeto: <https://github.com/insper-aulas/micro_api_26.1>
 - Handout da disciplina: <https://insper.github.io/platform/versions/2026.1/>
 - Sequencia individual:
   - <https://insper.github.io/platform/exercises/product/>
