@@ -22,7 +22,7 @@
 - Documentacao publicada: <https://insper-aulas.github.io/micro_api_26.1/>
 - Entregas individuais:
   - Raphael Cimerman Lafer: <https://raphaellafer.github.io/projeto_individual_api/>
-  - Pedro Henrique Vargas Sepulveda: pendente de link individual.
+  - Pedro Henrique Vargas Sepulveda: <https://pedro-vs.github.io/projeto_API_individual/>
 - Atividades implementadas:
   - [Product API](exercicios/product-api.md) - [repositorio](https://github.com/insper-aulas/product-service)
   - [Order API](exercicios/order-api.md) - [repositorio](https://github.com/insper-aulas/order-service)
