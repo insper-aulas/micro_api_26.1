@@ -34,14 +34,13 @@
 ## Apresentacao e video
 
 - Slides: pendente de publicacao externa.
-- Video: pendente de publicacao externa.
+- Video de Load Test: <https://youtu.be/LTDJSoIG2sQ>
 
 ## Pendencias Finais
 
 - Anexar evidencias finais do deploy em AWS/EKS real.
 - Anexar evidencias dos pipelines Jenkins apontando para o EKS.
-- Gravar o video do teste de carga mostrando o HPA.
-- Completar os links de slides e video.
+- Completar o link de slides.
 - Inserir prints em `docs/evidence/screenshots/`.
 - Revisar a estimativa final da AWS Pricing Calculator contra o custo observado no console.
 

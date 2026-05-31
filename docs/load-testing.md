@@ -2,6 +2,8 @@
 
 Os testes de carga ficam em `scripts/k6`.
 
+Video de Load Test: <https://youtu.be/LTDJSoIG2sQ>
+
 ## Scenarios
 
 - `gateway-baseline.js`: small steady traffic against the gateway health endpoint.
@@ -55,3 +57,5 @@ Evidencias para salvar:
 - `kubectl -n store-platform get pods -l app=gateway-service` mostrando replicas novas.
 - Saida final do `k6`.
 - Video de 2 a 3 minutos com as tres janelas.
+
+Evidencia em video publicada: <https://youtu.be/LTDJSoIG2sQ>
