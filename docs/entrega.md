@@ -34,6 +34,7 @@
 ## Apresentacao e video
 
 - Video de Load Test do `exchange-service`: <https://youtu.be/LTDJSoIG2sQ>
+- Video de demonstracao do `product-service` e do `order-service`: <https://youtu.be/uk1mvr0giKE>
 
 ## Pendencias Finais
 

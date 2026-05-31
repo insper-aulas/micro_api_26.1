@@ -19,9 +19,10 @@ Este repositorio consolida a entrega individual das etapas de microservices da d
 | Bottlenecks | Concluida | Redis cache + Prometheus + Grafana |
 | Documentacao | Concluida | Este site em `MkDocs` com publicacao por `GitHub Pages` |
 
-## Video do servico individual
+## Videos dos servicos individuais
 
 - `exchange-service`: [video de Load Test no YouTube](https://youtu.be/LTDJSoIG2sQ)
+- `product-service` e `order-service`: [video de demonstracao no YouTube](https://youtu.be/uk1mvr0giKE)
 
 ## O que esta documentado aqui
 
