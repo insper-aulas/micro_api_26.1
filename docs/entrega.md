@@ -34,7 +34,7 @@
 ## Apresentacao e video
 
 - Slides: pendente de publicacao externa.
-- Video de Load Test: <https://youtu.be/LTDJSoIG2sQ>
+- Video de Load Test do `exchange-service`: <https://youtu.be/LTDJSoIG2sQ>
 
 ## Pendencias Finais
 

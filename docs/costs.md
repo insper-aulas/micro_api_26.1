@@ -1,8 +1,8 @@
-# Costs
+# Custos
 
 A infra em AWS deve ser temporaria e usada apenas para demonstracao, porque EKS, EC2, RDS e Load Balancer geram custo enquanto estiverem ativos.
 
-## Principais Custos
+## Principais custos
 
 | Item | Uso no projeto | Como reduzir |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ A infra em AWS deve ser temporaria e usada apenas para demonstracao, porque EKS,
 | Load Balancer | Entrada publica do ingress-nginx | Remover junto com o cluster |
 | NAT Gateway | Saida de subnets privadas, se usado | Evitar NAT Gateway no desenho de demo quando possivel |
 
-## Plano de Custos
+## Plano de custos
 
 Para a entrega, a estimativa deve ser comparada com o custo real observado no console AWS.
 
@@ -29,6 +29,15 @@ O console AWS exibiu consumo ativo no mes da entrega:
 | Principais categorias visiveis | EKS, RDS, EC2 - Other, MQ, Tax e Outros |
 
 Esse valor deve ser tratado como evidencia de consumo real da infraestrutura compartilhada do grupo.
+
+## Interpretacao do custo
+
+O custo observado e maior do que uma demo curta porque a maior parte dos recursos de cloud cobra por tempo ligado. Em especial:
+
+- o control plane do EKS cobra enquanto o cluster existir;
+- os nodes EC2 cobram mesmo com baixo trafego;
+- volumes, load balancer e banco tambem continuam gerando custo enquanto ativos;
+- testes de carga aumentam uso de CPU, mas o principal fator de custo neste projeto e manter a infraestrutura provisionada.
 
 ## Estimativa planejada
 
@@ -47,6 +56,14 @@ Registre na apresentacao:
 - Se o banco foi RDS ou PostgreSQL dentro do cluster.
 - Custo mensal estimado e custo real observado no console.
 - Medidas de reducao de custo.
+
+## Medidas de controle
+
+- Criar o cluster apenas para validacao e apresentacao.
+- Destruir EKS, RDS e Load Balancer ao final da demo.
+- Manter node group pequeno.
+- Evitar replicas desnecessarias fora do teste de HPA.
+- Conferir o console AWS depois do cleanup.
 
 ## Cleanup
 
